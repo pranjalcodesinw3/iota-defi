@@ -1,0 +1,15 @@
+[package]
+name = "IOTADeFiProtocol"
+version = "1.0.0"
+edition = "2024.beta"
+authors = ["IOTA DeFi Protocol Team"]
+license = "MIT"
+
+[dependencies]
+Iota = { git = "https://github.com/iotaledger/iota.git", subdir = "crates/iota-framework/packages/iota-framework", rev = "develop" }
+
+[addresses]
+iota_defi_protocol = "0x0"
+iota = "0x2"
+
+[dev-dependencies]
